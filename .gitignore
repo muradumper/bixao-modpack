@@ -17,13 +17,12 @@ screenshots/
 usercache.json
 usernamecache.json
 options.txt
+servers.dat
+servers.dat_old
 
 # ignorar dados locais do minecraft modficiado
 .cosmetica/
 
-
-servers.dat
-servers.dat_old
 
 # ignorar possiveis cache do packwiz
 .packwiz/
