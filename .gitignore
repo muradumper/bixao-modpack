@@ -8,7 +8,7 @@
 .mixin.out/
 ## antes q esqueca o packwiz installer pode ta ignorado tambem
 
-# ignorar dados locais do minecraft
+# ignorar dados locais do minecraft vanilla
 saves/
 logs/
 crash-reports/
@@ -18,8 +18,13 @@ usercache.json
 usernamecache.json
 options.txt
 
+# ignorar dados locais do minecraft modficiado
+.cosmetica/
+
+
 servers.dat
 servers.dat_old
 
 # ignorar possiveis cache do packwiz
 .packwiz/
+packwiz.json
