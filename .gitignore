@@ -1,12 +1,12 @@
 # executaveis e desativados
-*.jar
+*.jar 
 *.zip
 *.disabled
 
 # ignorar arquivos temporarios
 .fabric/
 .mixin.out/
-packwiz-installer-bootstrap.jar
+## antes q esqueca o packwiz installer pode ta ignorado tambem
 
 # ignorar dados locais do minecraft
 saves/
