@@ -1,0 +1,22 @@
+# executaveis e desativados
+*.jar
+*.zip
+*.disabled
+
+# ignorar arquivos temporarios
+.fabric/
+.mixin.out/
+packwiz-installer-bootstrap.jar
+
+# ignorar dados locais do minecraft
+saves/
+logs/
+crash-reports/
+shaderpacks/
+screenshots/
+usercache.json
+usernamecache.json
+options.txt
+
+# ignorar possiveis cache do packwiz
+.packwiz/
