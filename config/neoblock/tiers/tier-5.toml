@@ -1,0 +1,38 @@
+name = "Explore phase"
+weight = 1
+
+blocks = [
+    "1xminecraft:tube_coral_block",
+    "1xminecraft:bubble_coral_block",
+    "1xminecraft:fire_coral_block",
+    "1xminecraft:brain_coral_block",
+    "1xminecraft:horn_coral_block",
+    "1xminecraft:prismarine",
+    "1xminecraft:prismarine_bricks",
+    "1xminecraft:dark_prismarine",
+    "1xminecraft:sea_lantern",
+    "4xminecraft:ice",
+    "4xminecraft:snow_block"
+]
+
+trades = [
+    "16xminecraft:wind_charge; 3-4xminecraft:iron_ingot; 32-64 50%",
+    "trade:blocks-4 50%",
+    "trade:saplings-2",
+    "trade:mobs-5",
+    "1x#neoblock:trims; 8-12xminecraft:diamond; 1-2 5%"     # Tag defined in tags.toml
+]
+
+[unlock]
+blocks = 1000
+command = false
+game-time = -1
+unlock-time = 24000
+
+[on-research]
+trades = [
+    "1xminecraft:azalea; 8-16xminecraft:gold_ingot; 8-12",
+    "1xminecraft:flowering_azalea; 8-16xminecraft:gold_ingot; 8-12",
+    "16xminecraft:wind_charge; 3-4xminecraft:iron_ingot; 32-64"
+]
+trader-message = "{b,c=#ffffff}Wandering trader{r}: {c=#75FA8D}Guess who's back!"

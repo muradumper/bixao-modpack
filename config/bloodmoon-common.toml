@@ -1,0 +1,13 @@
+
+["Blood Moon Configuration"]
+	#Chance for blood moon to occur each night (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	bloodMoonChance = 0.2
+	#Multiplier for mob spawns during blood moon
+	#Range: 1 ~ 10
+	mobSpawnMultiplier = 5
+	#Show chat message when blood moon starts
+	showChatMessage = true
+	#Prevent sleeping during blood moon
+	preventSleeping = true
+

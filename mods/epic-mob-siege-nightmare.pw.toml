@@ -1,0 +1,13 @@
+name = "Epic Mob Siege: Nightmare"
+filename = "ESM-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b556cc3c3796c3912efcd54c087b0eaa06a96e5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5003615
+project-id = 957414

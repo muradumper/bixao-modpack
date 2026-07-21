@@ -1,0 +1,15 @@
+
+["Food Additions (FA) Common Config"]
+	#Option to eat edited vanilla items (Glistering Melon Slice etc.) - default: true
+	"Edible Edited Vanilla Items" = true
+	#FA custom items recipes (Toasted Carrot smelt etc.). Doesn't include Poisonous Potato recipes - default: true, IMPORTANT: THIS OPTION IN DISABLED BECAUSE OF COMPAT ISSUES!
+	"FA recipes" = true
+	#Recipes for removing poison from Poisonous Potatoes - default: true, IMPORTANT: THIS OPTION IN DISABLED BECAUSE OF COMPAT ISSUES!
+	"Poisonous Potatoes Recipes" = true
+	#/hungerbar, /helpFA commands functionality - default: true
+	"Hungerbar Command" = true
+	#Chance to get 1-4 Bonemeal after eating some boiled eggs (including Turtle egg) - default: false
+	"Get Bonemeal after Egg is eaten" = false
+	#Replace FA items (Popped Chorus Fruit) with Vanilla ones. To understand previous sentence you need to know how mod works. Turning off this feature may cause compatibility issues during gameplay. If you have edible_edited_vanilla_items option set to false I recommend turning this option false - default: true
+	"Replace FA items with Vanilla ones" = true
+

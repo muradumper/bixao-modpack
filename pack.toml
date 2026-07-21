@@ -1,0 +1,13 @@
+name = "bixao"
+author = "apk modificado"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f8b73d51e6471c96d3dfa13d69e2edd7aa8d721eb3b6781f40f39e0c3cf69ea5"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"

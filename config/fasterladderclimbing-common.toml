@@ -1,0 +1,8 @@
+#Vertical speed applied while climbing upward when the player looks up and presses forward.
+#Range: 0.05 ~ 1.25
+climbUpSpeed = 0.3
+#Vertical speed applied while descending when the player looks down.
+#Keep this value negative so it accelerates downward instead of slowing the descent.
+#Range: -1.25 ~ -0.05
+climbDownSpeed = -0.25
+

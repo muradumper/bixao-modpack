@@ -1,0 +1,25 @@
+name = "End phase"
+weight = 1
+
+blocks = [
+    "9xminecraft:end_stone",
+    "1xminecraft:end_portal_frame"
+]
+
+trades = [
+    "trade:blocks-3"
+]
+
+[unlock]
+blocks = 1500
+command = false
+game-time = -1
+unlock-time = 36000
+
+[on-research]
+trades = [
+    "2xminecraft:shulker_shell; 16-32xminecraft:diamond; 4-6",
+    "1xminecraft:chorus_fruit; 16-32xminecraft:gold_ingot; 4-6",
+    "8xminecraft:end_stone; 16-32xminecraft:iron_ingot; 4-6"
+]
+trader-message = "{b,c=#ffffff}Wandering trader{r}: {c=#75FA8D}The dragon was scary! You must kill him!"

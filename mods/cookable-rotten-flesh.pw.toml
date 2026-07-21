@@ -1,0 +1,13 @@
+name = "Cookable Rotten Flesh"
+filename = "cookable_rotten_flesh-1.1.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9Xcv4k6p/versions/FdIkdAk3/cookable_rotten_flesh-1.1.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "3386a31fa9d1fd30223d598f520fe83be5553fc20762eb5cf3bbc334736303a506d076c280957d62d2af0f639e0c57832ba4d262ef7c3fe1c97e73c25efb71a3"
+
+[update]
+[update.modrinth]
+mod-id = "9Xcv4k6p"
+version = "FdIkdAk3"

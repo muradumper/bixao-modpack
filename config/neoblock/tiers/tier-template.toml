@@ -1,0 +1,97 @@
+# ================================================================
+# NEOBLOCK TIER TEMPLATE
+# ================================================================
+# Copy this block to create a new tier.
+# IMPORTANT: Rename the file according to tier sequence:
+# tier-0.toml, tier-1.toml, tier-2.toml, etc.
+# Update the `name` and `weight`, then customize blocks, trades, and unlock conditions.
+# ================================================================
+
+name = "New Tier Name"  # The display name of your tier.
+weight = 1              # Weight for random selection among enabled tiers.
+
+# Blocks that are guaranteed to spawn when this tier is unlocked.
+# Format is the same as 'blocks', can be left empty for random selection.
+starting-blocks = [
+    "neoblock:chest:example-chest"
+]
+
+# List of all blocks available in this tier.
+# Blocks from previous tiers are automatically available.
+blocks = [
+    "minecraft:stone",
+    "minecraft:iron_ore"
+]
+
+# Trades available while this tier is enabled.
+# You can specify individual items or trade groups.
+# Syntax for individual trades:
+#   "RESULT; COST A; COST B; USES"
+# Examples:
+#   "1xminecraft:iron_ingot; 2-4xminecraft:coal; 10"
+#   "trade:farm-1"
+trades = [
+    "trade:example-trade"
+]
+
+# ================================================================
+# Unlock conditions
+# ================================================================
+# All conditions listed below must be met to unlock this tier.
+[unlock]
+blocks = 100             # Number of blocks broken to unlock (-1 to disable)
+command = false          # Require server command to unlock (e.g., /neoblock unlock <tier-number>)
+game-time = -1           # Amount of ticks world has been loaded (-1 to disable)
+unlock-time = 1200       # Ticks required for upgrade (NeoBlock turns into Bedrock during upgrade)
+
+# ================================================================
+# Actions performed when the tier is unlocked
+# ================================================================
+[on-unlock]
+# Commands to execute on unlock
+commands = [
+    "say Congratulations, Tier Unlocked!"
+]
+
+# Trades given when tier unlocks
+trades = [
+    "1xminecraft:apple; 4-8xminecraft:bread; 8"
+]
+
+# Rules changes when tier unlocks
+[rules]
+doMobSpawning = true
+doDaylightCycle = true
+
+# ================================================================
+# Actions performed when the tier is enabled
+# ================================================================
+[on-enable]
+# Commands to execute when tier becomes active
+commands = [
+    "say Tier Enabled!"
+]
+
+# Optional rules changes
+[rules]
+doWeatherCycle = true
+
+# ================================================================
+# Actions performed when the tier is disabled
+# ================================================================
+[on-disable]
+# Commands executed when tier is disabled (optional)
+commands = [
+    "say Tier Disabled!"
+]
+
+# Optional trades or rules changes
+trades = [
+    "trade:example-disabled-trade"
+]
+[rules]
+doMobSpawning = false
+
+# ================================================================
+# END OF TEMPLATE
+# ================================================================

@@ -1,0 +1,13 @@
+name = "Freshly Creepers"
+filename = "Creeper_FA_v2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/axbPDaEx/versions/8qcq8H1V/Creeper_FA_v2.zip"
+hash-format = "sha512"
+hash = "45c1a8908cd2748fa72573f27ed16466f21a01cec7312c6abaf44ff52b5b9360fd847346223dfab09e30afa2f1f184c2409bc8623e97506160b3527a28c17a9d"
+
+[update]
+[update.modrinth]
+mod-id = "axbPDaEx"
+version = "8qcq8H1V"

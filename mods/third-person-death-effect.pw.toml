@@ -1,0 +1,13 @@
+name = "Third Person Death Effect"
+filename = "third_person_death_effect-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48e0b33ead3cc89496bb074b8e4db3471114d830"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7695398
+project-id = 1393707
