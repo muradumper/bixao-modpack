@@ -722,6 +722,11 @@ hash = "11c40209898628cc8ca75d28f539c449384b40600bfc88272306f6138f4e4428"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
 metafile = true
@@ -1010,6 +1015,10 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "14b10ee3ac98f98a58c7f63984570a55c60989d9f4a736c629aab054802de859"
 metafile = true
+
+[[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "resourcepacks/freshly-creepers.pw.toml"
