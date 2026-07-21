@@ -3,11 +3,11 @@ filename = "coalexplosion-forge-1.20.1-1.9.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bb8142fa24b141f51082ec5c9eebc736964eed2c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/6pcjc08X/versions/aOotQiu2/coalexplosion-forge-1.20.1-1.9.1.jar"
+hash-format = "sha512"
+hash = "bdc871e5b9154b125cc5a44d6f0fad5cdce4c1fe4b3525952482354bf88351f60105191f96d98cb08331e4463ab171e2105cafe7357730254a70cdf0348c8797"
 
 [update]
-[update.curseforge]
-file-id = 4924147
-project-id = 410164
+[update.modrinth]
+mod-id = "6pcjc08X"
+version = "aOotQiu2"

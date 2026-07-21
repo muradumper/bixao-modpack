@@ -4847,7 +4847,7 @@ metafile = true
 
 [[files]]
 file = "mods/coal-explosion.pw.toml"
-hash = "1e02b45e9da08ef5b6ed4874b375228ca60e0199bbb4b4fd193810e78bc7aef0"
+hash = "853a8f13b303dfe5dad02b913ae6f06606ce54f3f43b18341af2f85a25c74de0"
 metafile = true
 
 [[files]]
@@ -4925,7 +4925,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "37c8fd64e324fae219a25f9937dad68e2a88ab17a5cd8c3f09029a92afc47641"
+hash = "fbad2488da791994cbb4a0541e2dd22c536dbe6ca8f7edfdd9af12120e283fd2"
 metafile = true
 
 [[files]]
@@ -5004,7 +5004,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "1477857fc4870fa03596e4a60fe2912ae74aa624002728c0a2fc747100a14892"
+hash = "1c3d52224f1f174fbcf2c308a70e3c34a736694b626992891404db32cbd69c7e"
 metafile = true
 
 [[files]]
@@ -5154,7 +5154,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/low-on-fire.pw.toml"
-hash = "c25b9e8f402a4ce1ea9f425527333a11d743ba8820abbcccaf5894b94a99249c"
+hash = "0ce41000cbbb72e9c03ae3738500aae1056f1102ddc4e5a46784ec18cabf6ca7"
 metafile = true
 
 [[files]]
